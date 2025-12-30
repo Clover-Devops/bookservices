@@ -1,0 +1,16 @@
+# Maven
+target/
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
+
+# Temp files
+*.swp
+*.log
+
+# OS
+.DS_Store
