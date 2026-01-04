@@ -1,0 +1,6 @@
+git clone -b dev https://github.com/Clover-Devops/bookservices.git
+cd bookservices
+mvn clean package -DskipTests
+docker compose build
+docker compose up -d
+docker ps
